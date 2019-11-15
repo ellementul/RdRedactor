@@ -11,5 +11,10 @@
     "text-redactor"
   ],
   "author": "ellementul",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-devtools": "^5.1.3",
+    "vuejs": "^3.0.1"
+  }
 }

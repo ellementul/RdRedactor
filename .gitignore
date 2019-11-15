@@ -1,1 +1,4 @@
-*.sublime-*
+node_modules/*
+*.sublime-project
+*.sublime-workspace
+public/bundle.js

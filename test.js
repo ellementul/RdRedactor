@@ -7,8 +7,16 @@ var templateFile = fs.readFileSync("template.md", "utf8");
 
 var templateResult = fs.readFileSync("template.html", "utf8");
 
-if(templateFile !== templateResult){
-	console.log(templateFile);
-	console.log(mdToHtml(templateFile));
+var is_error = mdToHtml(templateFile).split("").some(function(char, i){
+	if(char !== templateResult.charAt(i)){
+		console.log(i, char, templateResult.charAt(i));
+		return true;
+	}
+	else
+		return false;
+})
+
+if(is_error){
+	throw new Error();
 }
 
