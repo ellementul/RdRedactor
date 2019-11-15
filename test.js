@@ -17,6 +17,9 @@ var is_error = mdToHtml(templateFile).split("").some(function(char, i){
 })
 
 if(is_error){
+	console.log(mdToHtml(templateFile));
 	throw new Error();
 }
+
+
 

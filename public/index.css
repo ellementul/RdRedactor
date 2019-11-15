@@ -1,10 +1,25 @@
 body{
 
+	color: #DDD;
 	font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+
+	background-image: url(./img/back.png);
+
+
 }
 
 header{
+	padding: 10px;
+	padding-top: 15px;
+
+	text-align: center;
+	vertical-align: middle;
+	color: #DDD;
+
+	background: #555E;
 }
+
 
 footer{
 }
@@ -14,5 +29,16 @@ footer{
 }
 
 .column{
-	
+	padding: 17px;
+
+	border: solid 5px #AAA;
+	background: #444;
+}
+
+.source{
+
+	font-size: 16pt;
+	color: #DDD;
+
+	border-color: #777;
 }

@@ -31,7 +31,7 @@ function insertTagBrAndH1(text){
 			else	
 				acc += str + "<br>";
 		else
-			acc += str + "\n";
+			acc += str + "<br>\n";
 
 		return acc;
 	}, "");
